@@ -1,0 +1,14 @@
+yarn run v1.22.10
+$ PORT=3000 react-app-rewired start
+Starting the development server...
+
+Compiled successfully!
+
+You can now view @micro-frontends-demo/container in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.2.3:3000/
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
