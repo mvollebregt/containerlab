@@ -4,11 +4,6 @@ import AppHeader from './AppHeader';
 import MicroFrontend from './MicroFrontend';
 import About from './About';
 
-const {
-  REACT_APP_BROWSE_HOST: browseHost,
-  REACT_APP_RESTAURANT_HOST: restaurantHost,
-} = process.env;
-
 let numRestaurants = 0;
 fetch(`https://content.demo1.microfrontendexample.com/restaurants.json`)
   .then(res => res.json())
