@@ -8,6 +8,7 @@
 
 # Travis CI
 1. Change configuration to let GitHub repo push changes to Travis CI
+2. Add AWS_ACCESS_KEY and AWS_SECRET_KEY to secrets
 
 # Website files changes
 1. Make the following adjustments:
