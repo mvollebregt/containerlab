@@ -7,7 +7,7 @@ before_deploy:
 
 deploy:
   provider: s3
-  bucket: demo1.microfrontendexample.com
+  bucket: demo1.labmicrofrontendexample.com
   local_dir: build
   skip_cleanup: true
   access_key_id: $AWS_ACCESS_KEY

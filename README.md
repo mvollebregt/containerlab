@@ -1,25 +1,20 @@
 # Feed Me
 
-[![Build Status](https://travis-ci.org/micro-frontends-demo/container.svg?branch=master)](https://travis-ci.org/micro-frontends-demo/container)
+# GitHub
+1. Set up public GitHub repo
+2. Set up local git repo with the website files
+3. Link local git repo to remote GitHub repo
+4. Push first version of website files to GitHub repo
 
-Entry point and container application for a micro frontends demo.
+# Travis CI
+1. Change configuration to let GitHub repo push changes to Travis CI
 
-This is a React application, which renders a navigation bar, and uses React Router to select a
-microfrontend to render onto the page.
+# Website files changes
+1. Make the following adjustments:
+    - in /browselab/.env change the name of the 3 subdomains
+    - in /browselab/.travis.yml change the name of the subdomain
 
-# Getting started
-
-1. Clone the repo
-2. `yarn install`
-3. `yarn start`
-
-You can run the container on its own, but for it to actually do anything you'll
-also need to be running:
-
-- the [`content`](https://github.com/micro-frontends-demo/content) server
-- the [`browse`](https://github.com/micro-frontends-demo/browse/) micro frontend
-- the [`restaurant-order`](https://github.com/micro-frontends-demo/restaurant-order) micro frontend
-
-# Run the tests
-
-- `yarn test`
+# Build and deployment
+1. Push changes to GitHub
+2. The changes will be forwarded to Travis CI
+3. Based on the .travis.yml file Travis CI will build the software and deploy it to AWS
