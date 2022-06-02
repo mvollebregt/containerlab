@@ -5,7 +5,7 @@ import './AppHeader.css';
 const AppHeader = () => (
   <header>
     <div className="center-column">
-      <img src="https://en.pimg.jp/052/420/996/1/52420996.jpg" style="width: 80px;padding-right: 20px;">
+      <img src="https://en.pimg.jp/052/420/996/1/52420996.jpg" style="width: 80px;padding-right: 20px;"></img>
         <h1>Eat up!</h1>
     </div>
     <nav>
