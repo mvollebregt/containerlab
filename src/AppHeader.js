@@ -5,7 +5,7 @@ import './AppHeader.css';
 const AppHeader = () => (
   <header>
     <div className="center-column">
-      <h1>🍽 Feed me</h1>
+      <h1>🍽 Eat up!</h1>
     </div>
     <nav>
       <ol className="center-column">
@@ -13,7 +13,7 @@ const AppHeader = () => (
           <NavLink to="/">Browse restaurants</NavLink>
         </li>
         <li>
-          <NavLink to="/random">Surprise me</NavLink>
+          <NavLink to="/random">Give me what you got!</NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>
