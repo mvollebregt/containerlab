@@ -5,7 +5,8 @@ import './AppHeader.css';
 const AppHeader = () => (
   <header>
     <div className="center-column">
-      <h1>🍽 Eat up!</h1>
+      <img src="https://en.pimg.jp/052/420/996/1/52420996.jpg" style="width: 80px;padding-right: 20px;">
+        <h1>Eat up!</h1>
     </div>
     <nav>
       <ol className="center-column">
